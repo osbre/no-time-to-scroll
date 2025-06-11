@@ -9,7 +9,77 @@
       }
     },
     "condition": {
-      "regexFilter": "^https://www\\.reddit\\.com/?$",
+      "regexFilter": "^https://(www\\.)?reddit\\.com/?$",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:text/plain,No time to scroll. Go do something else!"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(www\\.)?facebook\\.com/?$",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:text/plain,No time to scroll. Go do something else!"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(www\\.)?(twitter\\.com|x\\.com)/?$",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:text/plain,No time to scroll. Go do something else!"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(www\\.)?instagram\\.com/?$",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:text/plain,No time to scroll. Go do something else!"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(www\\.)?youtube\\.com/?$",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:text/plain,No time to scroll. Go do something else!"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(www\\.)?tiktok\\.com/?$",
       "resourceTypes": ["main_frame"]
     }
   }

@@ -2,12 +2,17 @@
   "manifest_version": 3,
   "name": "No Time to Scroll",
   "version": "1.0",
-  "description": "Blocks Reddit homepage to stop mindless scrolling",
+  "description": "Blocks homepage access to time-wasting sites.",
   "permissions": ["declarativeNetRequest"],
-  "host_permissions": ["https://www.reddit.com/"],
-  "action": {
-    "default_title": "No Time to Scroll"
-  },
+  "host_permissions": [
+    "https://www.reddit.com/",
+    "https://www.facebook.com/",
+    "https://www.instagram.com/",
+    "https://www.youtube.com/",
+    "https://www.tiktok.com/",
+    "https://www.twitter.com/",
+    "https://www.x.com/"
+  ],
   "declarative_net_request": {
     "rule_resources": [
       {
@@ -16,5 +21,8 @@
         "path": "rules.json"
       }
     ]
+  },
+  "action": {
+    "default_title": "No Time to Scroll"
   }
 }
