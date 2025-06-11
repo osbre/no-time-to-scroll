@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:text/plain,No time to scroll. Go do something else!"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://www\\.reddit\\.com/?$",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
