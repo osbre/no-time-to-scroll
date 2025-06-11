@@ -1,4 +1,4 @@
-Many website-blocking or "focus" extensions show pop-ups and do all sorts. I just wanted something simple, a minimalistic set-and-forget kind of thing.
+Many website-blocking or "focus" extensions show pop-ups and do all sorts. I wanted something simple and minimal that does one thing well.
 
 ![Preview](./preview.png)
 
